@@ -1,0 +1,30 @@
+[
+  { "link": "article/the-future-of-quantum-computing",
+    "image": "/articlespics/Quantum.jpeg",
+    "title": "The Future of Quantum Computing",
+    "excerpt": "Quantum computers are set to solve problems classical machines can’t handle.",
+    "date": "2024-12-05"
+  },
+  {
+    "link": "article/gravitational-waves",
+    "image": "/articlespics/Gravwave.jpeg",
+    "title": "Gravitational Waves: A New Window to the Universe",
+    "excerpt": "Recent detections reveal exciting insights about black hole mergers.",
+    "date": "2025-01-18"
+  },
+  {
+    "link": "article/dark-matter-mysteries",
+    "image": "/articlespics/DM.jpeg",
+    "title": "Dark Matter Mysteries",
+    "excerpt": "Physicists continue the search for the unseen matter shaping galaxies.",
+    "date": "2023-11-23"
+  },
+  {
+    "link": "article/nuclear-fusion-breakthroughs",
+    "image": "/articlespics/NUKE.jpeg",
+    "title": "Nuclear Fusion Breakthroughs",
+    "excerpt": "Fusion energy promises clean, limitless power if technical hurdles are solved.",
+    "date": "2025-03-12"
+  }
+  
+]

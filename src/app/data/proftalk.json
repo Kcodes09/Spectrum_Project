@@ -1,0 +1,39 @@
+[
+  {
+    "link": "article/Talk-with-Dr-Ananya-Iyer",
+    "image":"/prof/quantum_entanglement.jpeg",
+    "professor": "Dr. Ananya Iyer",
+    "date": "2025-02-15",
+    "title": "Quantum Entanglement and Future Computing",
+    "excerpt": "Dr. Iyer discusses the implications of quantum entanglement for future computing technologies."
+  },
+
+  {
+    "link": "article/Talk-with-Dr-Rohit-Malhotra",
+    "image":"/prof/particle.jpeg",
+    "professor": "Dr. Rohit Malhotra",
+    "date": "2025-03-10",
+    "title": "Advances in Particle Physics",
+    "excerpt": "A conversation on advances in particle physics and the search for new fundamental particles."
+  },
+
+  {
+    "link": "article/Talk-with-Dr-Priya-Menon",
+    "image":"/prof/astrophysics.jpeg",
+    "professor": "Dr. Priya Menon",
+    "date": "2024-12-20",
+    "title": "Astrophysics and Black Hole Studies",
+    "excerpt": "Insights into astrophysics research and the study of black holes in distant galaxies."
+  },
+  
+  
+  {
+    "link": "article/Talk-with-Dr-Kavita-Sharma",
+    "image":"/prof/condensed_matter.jpeg",
+    "professor": "Dr. Kavita Sharma",
+    "date": "2024-11-05",
+    "title": "Condensed Matter and Quantum Materials",
+    "excerpt": "A discussion on condensed matter physics and how quantum materials are shaping new technologies."
+  }
+]
+
