@@ -18,11 +18,11 @@ const HomePage: React.FC = () => {
     <div className="bg-gray-900 min-h-screen text-gray-100">
       {/* Navbar */}
       <Navbar />
-      <div className="pt-24"></div>
+      <div id="articles" className="pt-24"></div>
 
       {/* Articles Section */}
       <section
-        id="articles"
+        
         className="pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
@@ -47,10 +47,10 @@ const HomePage: React.FC = () => {
           ))}
         </div>
       </section>
-
+          <div id="profs" className="pt-6"></div>
       {/* Professors Section */}
       <section
-        id="profs"
+        
         className="pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
