@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
       {/* Professors Section */}
       <section
         
-        className="pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
+        className=" pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
           className="text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white"

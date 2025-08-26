@@ -19,7 +19,7 @@ function Footer()  {
             </Link>
           </div>
           <div className="flex  mb-4 hover:text-white transition">
-            <Link href="https://www.facebook.com/groups/181613401861124/?ref=share&mibextid=NSMWBTc" className=" flex flex-col justify-center hover:text-white items-center sm:text-hidden">
+            <Link href="https://www.facebook.com/groups/181613401861124/?ref=share&mibextid=NSMWBTc" className="  flex flex-col hover:text-white items-center text-center sm:text-hidden">
                 <Facebook className="w-6 h-6 mb-1" /> <span className="text-white text-md  font-bold hidden sm:inline">facebook.com/spectrum-thephysicsassociation</span>
             </Link>
           </div>
