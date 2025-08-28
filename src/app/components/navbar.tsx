@@ -16,7 +16,7 @@ function Navbar() {
           </Link>
 
 
-          <div className="flex space-x-1 lg:space-x-4 md:space-x-2">
+          <div className="flex space-x-0.5 lg:space-x-4 md:space-x-2">
             <Link
               href="/"
               className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
