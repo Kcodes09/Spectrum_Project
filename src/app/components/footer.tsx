@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Instagram , Facebook, MailIcon , CopyrightIcon, LinkIcon} from "lucide-react";
+import { Instagram , LucideFacebook, CopyrightIcon, LinkIcon , Linkedin} from "lucide-react";
+import { EnvelopeIcon } from "@heroicons/react/20/solid";
 
 function Footer()  {
   return (
@@ -20,12 +21,17 @@ function Footer()  {
           </div>
           <div className="flex flex-col items-center text-center hover:text-white transition">
             <Link href="https://www.facebook.com/groups/181613401861124/?ref=share&mibextid=NSMWBTc" className="  flex flex-col hover:text-white items-center text-center sm:text-hidden">
-                <Facebook className="w-6 h-6 mb-1" /> <span className="text-white text-md  font-bold hidden sm:inline">facebook.com/spectrum-thephysicsassociation</span>
+                <LucideFacebook className="w-6 h-6 mb-1" /> <span className="text-white text-md  font-bold hidden sm:inline">facebook.com/spectrum-thephysicsassociation</span>
             </Link>
           </div>
           <div className="flex flex-col items-center text-center hover:text-white transition">
             <Link href="mailto:spectrum@hyderabad.bits-pilani.ac.in" className=" flex flex-col hover:text-white items-center text-center sm:text-hidden">
-              <MailIcon className="w-6 h-6 mb-1" /> <span className="text-white text-md font-bold hidden sm:inline">spectrum@hyderabad.bits-pilani.ac.in</span>
+              <EnvelopeIcon className="w-6 h-6 mb-1" /> <span className="text-white text-md font-bold hidden sm:inline">spectrum@hyderabad.bits-pilani.ac.in</span>
+            </Link>
+          </div>
+          <div className="flex flex-col items-center text-center hover:text-white transition">
+            <Link href="https://www.linkedin.com/company/spectrum-bphc" className=" flex flex-col hover:text-white items-center text-center sm:text-hidden">
+              <Linkedin className="w-6 h-6 mb-1" /> <span className="text-white text-md font-bold hidden sm:inline">linkedin.com/company/spectrum-bphc</span>
             </Link>
           </div>
         </div>
@@ -33,7 +39,7 @@ function Footer()  {
       </div>
     <footer className="text-center bg-gray-800 mt-6">
 
-           <CopyrightIcon className="inline w-4 h-4" /> <Link href="/">Spectrum</Link>
+           <CopyrightIcon className="inline w-4 h-4" /> <Link href="/">Spectrum 2025</Link>
 
       </footer>
       </div>

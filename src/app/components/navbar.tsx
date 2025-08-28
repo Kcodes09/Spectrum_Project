@@ -10,7 +10,7 @@ function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <img src="/Spectrum.svg" alt="Spectrum" className="h-8 w-auto" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-yellow-600 to-pink-500 bg-clip-text text-transparent hover:bg-gradient-to-l">
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-yellow-600 to-pink-500 bg-clip-text text-transparent hover:bg-gradient-to-l sm:text-xl">
               Spectrum
             </span>
           </Link>
@@ -19,7 +19,7 @@ function Navbar() {
           <div className="flex space-x-4">
             <Link
               href="/"
-              className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
+              className="flex items-center gap-2 sm:gap-1 sm:px-1 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <HomeIcon className="h-5 w-5" />
               <span className="hidden md:inline">Home</span>
@@ -27,7 +27,7 @@ function Navbar() {
 
             <Link
               href="#articles"
-              className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
+              className="flex items-center gap-2 sm:gap-1 sm:px-1 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <ClipboardPenIcon className="h-5 w-5" />
               <span className="hidden md:inline">Articles</span>
@@ -35,7 +35,7 @@ function Navbar() {
 
             <Link
               href="#profs"
-              className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
+              className="flex items-center gap-2 sm:gap-1 sm:px-1 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <MicIcon className="h-5 w-5" />
               <span className="hidden md:inline">Talk With Professors</span>
@@ -43,7 +43,7 @@ function Navbar() {
 
             <Link
               href="#aboutus"
-              className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
+              className="flex items-center gap-2 sm:gap-1 sm:px-1 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <InfoIcon className="h-5 w-5" />
               <span className="hidden md:inline">About Us</span>
