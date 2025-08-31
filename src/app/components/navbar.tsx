@@ -10,7 +10,6 @@ function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-gray-800 shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <img src="/Spectrum.svg" alt="Spectrum" className="h-8 w-auto" />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-yellow-600 to-pink-500 bg-clip-text text-transparent hover:bg-gradient-to-l sm:text-xl">
@@ -18,7 +17,7 @@ function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop Menu */}
+          
           <div className="hidden md:flex space-x-4">
             <Link
               href="/"
@@ -53,7 +52,7 @@ function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-gray-400 hover:text-white focus:outline-none"
@@ -63,7 +62,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      
       {isOpen && (
         <div className="md:hidden bg-gray-700 px-4 pb-4 space-y-2">
           <Link

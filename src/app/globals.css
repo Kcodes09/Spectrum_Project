@@ -120,3 +120,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes zoom-in {
+  0% { opacity: 0; transform: scale(0.5); }
+  80% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-out {
+  animation: fade-out 2s ease-out forwards; /* blackhole fades over 2s */
+}
+
+.animate-zoom-in {
+  animation: zoom-in 2s ease-out forwards 2s; /* starts after 2s delay */
+}
