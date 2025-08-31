@@ -4,6 +4,9 @@ import {usePathname} from "next/navigation";
 import React, { useState } from "react";
 import { ClipboardPenIcon, HomeIcon, InfoIcon, MicIcon, MenuIcon, XIcon } from "lucide-react";
 
+
+
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
@@ -17,7 +20,7 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2">
             <img src="/Spectrum.svg" alt="Spectrum" className="h-8 w-auto" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-yellow-600 to-pink-500 bg-clip-text text-transparent hover:bg-gradient-to-l sm:text-xl">
+            <span className={`text-2xl font-bold bg-gradient-to-r from-blue-600 via-yellow-600 to-pink-500 bg-clip-text text-transparent hover:bg-gradient-to-l sm:text-xl`}>
               Spectrum
             </span>
           </Link>
@@ -30,7 +33,7 @@ function Navbar() {
 
             >
               <HomeIcon className="h-5 w-5" />
-              <span>Home</span>
+              <span className="font-sans">Home</span>
             </Link>
 
             <Link
@@ -38,7 +41,7 @@ function Navbar() {
               className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <ClipboardPenIcon className="h-5 w-5" />
-              <span>Articles</span>
+              <span className="font-sans">Articles</span>
             </Link>
 
             <Link
@@ -46,7 +49,7 @@ function Navbar() {
               className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <MicIcon className="h-5 w-5" />
-              <span>Talk With Professors</span>
+              <span className="font-sans">Talk With Professors</span>
             </Link>
 
             <Link
@@ -54,7 +57,7 @@ function Navbar() {
               className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
             >
               <InfoIcon className="h-5 w-5" />
-              <span>About Us</span>
+              <span className="font-sans">About Us</span>
             </Link>
           </div>
 
@@ -77,7 +80,7 @@ function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
           >
             <HomeIcon className="h-5 w-5" />
-            <span>Home</span>
+            <span className="font-sans">Home</span>
           </Link>
 
           <Link
@@ -86,7 +89,7 @@ function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
           >
             <ClipboardPenIcon className="h-5 w-5" />
-            <span>Articles</span>
+            <span className="font-sans">Articles</span>
           </Link>
 
           <Link
@@ -95,7 +98,7 @@ function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
           >
             <MicIcon className="h-5 w-5" />
-            <span>Talk With Professors</span>
+            <span className="font-sans">Talk With Professors</span>
           </Link>
 
           <Link
@@ -104,7 +107,7 @@ function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
           >
             <InfoIcon className="h-5 w-5" />
-            <span>About Us</span>
+            <span className="font-sans">About Us</span>
           </Link>
         </div>
       )}

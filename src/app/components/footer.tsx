@@ -10,7 +10,7 @@ function Footer()  {
         <p
           className="text-3xl md:text-5xl text-center font-lucida font-semibold text-white mb-8 flex justify-center items-center"
         >
-          <LinkIcon className="w-6 h-6 inline-block mr-2" /> Connect With Us
+          <LinkIcon className="w-6 h-6 inline-block mr-2 font-sans" /> Connect With Us
         </p>
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center  px-2 flex-wrap gap-6" >

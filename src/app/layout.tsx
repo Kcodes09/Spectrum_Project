@@ -2,7 +2,22 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "aos/dist/aos.css";
+import { Montserrat, Playfair_Display,Raleway } from "next/font/google";
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
+const raleWay = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleWay",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +40,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${playfair.variable} ${raleWay.variable} antialiased`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${playfair.variable} ${raleWay.variable} antialiased`}
       >
         {children}
       </body>

@@ -33,7 +33,7 @@ const Hero = () => {
     </div>
 
     {/* Welcome text */}
-    <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-white animate-zoom-in">
+    <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-white animate-zoom-in font-serif">
       Welcome to Spectrum
     </h1>
   </div>
