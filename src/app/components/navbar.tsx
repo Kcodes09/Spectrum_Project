@@ -1,10 +1,15 @@
 "use client";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 import React, { useState } from "react";
 import { ClipboardPenIcon, HomeIcon, InfoIcon, MicIcon, MenuIcon, XIcon } from "lucide-react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  console.log(pathname)
+
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-800 shadow-md z-50">
@@ -22,6 +27,7 @@ function Navbar() {
             <Link
               href="/"
               className="flex items-center gap-2 text-gray-400 hover:text-white hover:bg-blue-600 px-3 py-1 rounded-md transition"
+
             >
               <HomeIcon className="h-5 w-5" />
               <span>Home</span>
@@ -68,6 +74,7 @@ function Navbar() {
           <Link
             href="/"
             className="flex items-center gap-2 text-gray-300 hover:text-white hover:bg-blue-600 px-3 py-2 rounded-md transition"
+            onClick={() => setIsOpen(!isOpen)}
           >
             <HomeIcon className="h-5 w-5" />
             <span>Home</span>
@@ -76,6 +83,7 @@ function Navbar() {
           <Link
             href="#articles"
             className="flex items-center gap-2 text-gray-300 hover:text-white hover:bg-blue-600 px-3 py-2 rounded-md transition"
+            onClick={() => setIsOpen(!isOpen)}
           >
             <ClipboardPenIcon className="h-5 w-5" />
             <span>Articles</span>
@@ -84,6 +92,7 @@ function Navbar() {
           <Link
             href="#profs"
             className="flex items-center gap-2 text-gray-300 hover:text-white hover:bg-blue-600 px-3 py-2 rounded-md transition"
+            onClick={() => setIsOpen(!isOpen)}
           >
             <MicIcon className="h-5 w-5" />
             <span>Talk With Professors</span>
@@ -92,6 +101,7 @@ function Navbar() {
           <Link
             href="#aboutus"
             className="flex items-center gap-2 text-gray-300 hover:text-white hover:bg-blue-600 px-3 py-2 rounded-md transition"
+            onClick={() => setIsOpen(!isOpen)}
           >
             <InfoIcon className="h-5 w-5" />
             <span>About Us</span>
