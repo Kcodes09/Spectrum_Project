@@ -4,10 +4,6 @@ import "./globals.css";
 import "aos/dist/aos.css";
 import { Montserrat, Playfair_Display,Raleway } from "next/font/google";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-});
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -40,9 +36,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${playfair.variable} ${raleWay.variable} antialiased`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${raleWay.variable} antialiased`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${playfair.variable} ${raleWay.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable}  ${playfair.variable} ${raleWay.variable} antialiased`}
       >
         {children}
       </body>

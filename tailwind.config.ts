@@ -8,13 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        playfair: "var(--font-playfair)",
-        raleWay: "var(--font-raleWay)",
-        montserrat: "var(--font-montserrat)",
-        geist: "var(--font-geist-sans)",
-        mono: "var(--font-geist-mono)",
-      },
 
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',

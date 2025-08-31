@@ -35,7 +35,7 @@ const HomePage = () => {
         className="pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
-          className={`font-sans text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
+          className={`font-serif text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
           data-aos="fade-down"
           data-aos-once="false"
           
@@ -65,7 +65,7 @@ const HomePage = () => {
         className=" pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
-          className={`font-sans text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
+          className={`font-serif text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
           data-aos="fade-down"
           
         >
@@ -94,7 +94,7 @@ const HomePage = () => {
         className="pt-8 max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8"
       >
         <h1
-          className={`font-sans  text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
+          className={`font-serif text-5xl md:text-6xl lg:text-7xl text-center font-lucida font-semibold mb-8 text-white`}
           data-aos="fade-down"
         >
           About Us
