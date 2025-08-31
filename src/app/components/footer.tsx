@@ -39,7 +39,7 @@ function Footer()  {
       </div>
     <footer className="text-center bg-gray-800 mt-6">
 
-           <CopyrightIcon className="inline w-4 h-4" /> <Link href="/">Spectrum 2025</Link>
+           <CopyrightIcon className="inline w-4 h-4" /> <Link href="/">Spectrum-Keshav 2025</Link>
 
       </footer>
       </div>
